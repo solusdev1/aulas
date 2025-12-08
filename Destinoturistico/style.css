@@ -34,6 +34,12 @@ section + section{
 
 }
 
+#about hr {
+    margin: 40px 0;
+    border: none;
+    border-top: 1px solid #000;
+}
+
 .content-list {
     list-style: none;
     padding: 0;
@@ -75,29 +81,21 @@ img{
         margin-bottom: 4px;
     
     }
+    h3{
+        font-weight: bold;
+        color:#E1624F;
+        font-size: 16px;
+    }
     h2{
         font-size: 24px;
         }
      
-        h3{
-            font-weight: bold;
-            color:#E1624F;
-            font-size: 16px;
-        }
-      
- /* #destinos p + p {
-    margin-top: 11112px;
- } */
-    /* h1{
-        line-height: 140%;
-        font-size: 36px;
-        margin-bottom: 4;
-    } */
+
     h2{
         font-size: 22px;
         }
  #destinos p{
-            margin-top: 12px;
+            margin-top: 15px;
             font-weight: normal;
             text-align: left;
             font-size: 16px;
@@ -110,15 +108,43 @@ img{
     padding-left: 40px;
     margin-top: 0;
 }
-
-#beomeo-sa  p {
-    text-align: left;
-} 
-#beomeo-sa ul {
+#haedong ul li:first-child {
+    list-style: none;
+}
+#haedong  ul {
     text-align: left;
     padding-left: 40px;
     margin-top: 0;
+}
+#haedong ul li:first-child {
+    list-style: none;
+    margin-left: -40px;
+    padding-left: 0;
+}
+#haedong ul li:nth-child(2){
+    color:#0C51A7 ;
+}
+#beomeo-sa  p {
+    text-align: left;
+} 
+#beomeo-sa  ul {
+    text-align: left;
+    padding-left: 40px;
+    margin-top: 0;
+}
+#beomoe-sa ul li:first-child {
+    list-style: none;
+    margin-left: -40px;
+    padding-left: 0;
+}
+#beomeo-sa ul li:first-child {
+    list-style: none;
+    margin-left: -40px;
+    padding-left: 0;
 }   
+#beomeo-sa ul li:nth-child(2){
+    color:#0C51A7 ;
+}
         
 #yongdusan p {
     text-align: left;
@@ -128,22 +154,27 @@ img{
     padding-left: 40px;
     margin-top: 0;
 }
-#yongdusan ul li:nth-child(1) {
-    color: #4A90E2;
-}
-#yongdusan ul li:nth-child(1)::marker {
-    color: #000;
+#yongdusan ul li:first-child {
+    list-style: none;
+    margin-left: -40px;
+    padding-left: 0;
 }
 #yongdusan ul li:nth-child(2) {
-    color: #50C878;
+    color: #4A90E2;
 }
 #yongdusan ul li:nth-child(2)::marker {
     color: #000;
 }
 #yongdusan ul li:nth-child(3) {
-    color: #FF6B6B;
+    color: #50C878;
 }
 #yongdusan ul li:nth-child(3)::marker {
+    color: #000;
+}
+#yongdusan ul li:nth-child(4) {
+    color: #FF6B6B;
+}
+#yongdusan ul li:nth-child(4)::marker {
     color: #000;
 }
         footer p {
