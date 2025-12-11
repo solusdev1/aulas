@@ -86,3 +86,53 @@ else if(hour1 >12 && hour <=18) {
 else{
     console.log("Boa NOite")
 }
+
+// Switch Case
+
+let option = 6
+switch (option){
+    case 1:
+        console.log("Consultar Pedido")
+        break
+    case 2:
+        console.log("Falar com Atendente")        
+        break
+        default:
+            console.log("Opção Invalida")
+    }
+//
+
+// Tratamento de Excecões - uma exceção e uma condição ou evento imprevisto, algo que ocorre e que interrompe o fluxo normal das operações
+// tentativa de abrir um arquivo que ano existe,conectar um banco de dados nao disponivel...
+
+
+/* try {
+    console.log(result)
+    //tenta executar algo
+ } catch (error){
+    console.log(error)
+//Captura o erro para tratar
+//console.log("Não foi possivel executar o seu pedido, tenta mais tarde novamente")
+ } finally{
+    console.log("FIM")
+    
+}*/
+
+let result = 0
+
+try{
+    if(result ===0){
+        throw new Error (" o valor é igual a 0")
+            }
+        }
+    catch (error){
+        console.log(error)
+    }
+    finally{
+        console.log("Fim")
+    }
+
+
+
+
+
